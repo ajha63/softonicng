@@ -1,0 +1,2674 @@
+<!DOCTYPE html>
+<html lang="en-US" class="app-post-download-page app-post-download-page--desktop ">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	
+
+	<!-- In IE9 and less console debug is a Object -->
+	<!--[if lte IE 9]>
+	<script>
+		window.console = {};
+		window.console.debug = function () {};
+	</script>
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+	<![endif]-->
+
+	
+	
+		<script>
+	function sendRequest(error, source, lineno, colno) {
+		var params = {
+			product: 'web',
+			event: 'error_js',
+			page_type: 'app_post_download',
+			dl_type: '',
+			ph: 'Windows',
+			title: 'conceptdraw',
+			id_file: '98940',
+			user_agent: navigator.userAgent,
+			page_url: window.location.href,
+			error_line: lineno + ':' + colno,
+			error_source: source,
+			error_stack: error.stack,
+			error_message: error.message,
+			error_name: error.name
+		};
+
+		var queryString = Object.keys(params)
+			.map(function(key) {
+				return key + '=' + encodeURIComponent(params[key]);
+			})
+			.join('&');
+		var url = 'https://softonic-analytics.net/blank.gif?' + queryString;
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('GET', url, true);
+		xmlhttp.send();
+	}
+
+	window.onerror = function(messageOrEvent, source, lineno, colno, error) {
+		var isSoftonicCdn = /m\.sftcdn\.net/.test(source);
+		if (isSoftonicCdn) {
+			sendRequest(error || {
+				message: messageOrEvent
+			}, source, lineno, colno);
+		}
+	}
+</script>
+
+		
+  <title>Download ConceptDraw PRO 10.2.0.62 - latest version</title>
+
+
+  <meta name="title" content="Download ConceptDraw PRO 10.2.0.62 - latest version">
+
+  <meta name="description" content="Download ConceptDraw PRO 10.2.0.62 for Windows now from Softonic: 100% safe and virus free. More than 1126 downloads this month. Download ConceptDraw PRO latest version 2017">
+
+  <meta name="robots" content="noindex, nofollow">
+
+
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#008ad1">
+		<meta class="js-config" name="baseDomain" content="softonic.com">
+		<meta class="js-config" name="rootUrl" content="https://en.softonic.com">
+		<meta class="js-config" name="staticsBaseUrl" content="https://m.sftcdn.net">
+		<meta class="js-config" name="pageId" content="app-post-download">
+		<meta class="js-config" name="displayType" content="desktop">
+		<meta class="js-config" name="devicePlatformId" content="windows">
+		<meta class="js-config" name="browserName" content="">
+		<meta class="js-config" name="browserVersion" content="">
+		<meta class="js-config" name="countryCode" content="VE">
+		<meta class="js-config" name="externalLoginApiUrl" content="https://cdns.gigya.com/JS/gigya.js?apikey=3_Snkrf0bu_hMVnQj3RNLIYsEbjTRtHHToxPzmTRxO0COCQTXewDpSz526HF8J3hCm&amp;lang=en">
+		<meta class="js-config" name="externalVideoApiUrl" content="https://api.dmcdn.net/all.js">
+		
+<meta class="js-config" name="trackingConfig[config][host]" content="softonic-analytics.net/blank.gif">
+<meta class="js-config" name="trackingConfig[config][product]" content="web">
+
+
+<meta class="js-config" name="trackingConfig[common][product_platform]" content="web">
+<meta class="js-config" name="trackingConfig[common][version]" content="1">
+<meta class="js-config" name="trackingConfig[common][st][app_version]" content="0.1.1873-9640">
+<meta class="js-config" name="trackingConfig[common][st][device_type]" content="desktop">
+<meta class="js-config" name="trackingConfig[common][st][event_type]" content="user_activity">
+<meta class="js-config" name="trackingConfig[common][ua][uaNumber]" content="UA-152357-1">
+<meta class="js-config" name="trackingConfig[common][ua][loginType]" content="no">
+
+
+<meta class="js-config" name="trackingConfig[session][product_session]" content="web">
+<meta class="js-config" name="trackingConfig[session][instance_name]" content="en">
+<meta class="js-config" name="trackingConfig[session][event_type]" content="user_session">
+<meta class="js-config" name="trackingConfig[session][id_common_user]" content="">
+
+		<meta class="js-config" name="ads" content='{&quot;slotDefaultOptions&quot;:{},&quot;providerOptions&quot;:{&quot;netseer&quot;:{&quot;baseUrl&quot;:&quot;https://proxy.softonicads.com/net/web/en/ads&quot;},&quot;adsenseLinkUnit&quot;:{&quot;adClient&quot;:&quot;ca-pub-9488838626649539&quot;},&quot;gpt&quot;:{&quot;singleRequestEnabled&quot;:true,&quot;targeting&quot;:{&quot;devel&quot;:&quot;&quot;,&quot;ui&quot;:&quot;new&quot;,&quot;compliant&quot;:&quot;1&quot;,&quot;cat&quot;:&quot;20003&quot;,&quot;author&quot;:&quot;ConceptDraw&quot;,&quot;file&quot;:&quot;98940&quot;,&quot;tag&quot;:[&quot;productivity&quot;,&quot;utilities&quot;,&quot;business&quot;,&quot;documents&quot;,&quot;office&quot;,&quot;suites&quot;],&quot;tab_content&quot;:&quot;applications&quot;,&quot;plat&quot;:&quot;2&quot;,&quot;country&quot;:&quot;VE&quot;,&quot;kw&quot;:&quot;&quot;,&quot;description_url&quot;:&quot;https://en.softonic.com/download/conceptdraw/post-download&quot;,&quot;dc_ref&quot;:&quot;https://en.softonic.com/download/conceptdraw/post-download&quot;,&quot;contentid&quot;:&quot;&quot;,&quot;recat&quot;:[&quot;business-productivity&quot;]}}},&quot;slots&quot;:{&quot;wallpaper-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;type&quot;:&quot;wallpaper&quot;,&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;outOfPage&quot;:true,&quot;targeting&quot;:{&quot;type&quot;:&quot;wallpaper_background&quot;,&quot;pos&quot;:&quot;top&quot;},&quot;bids&quot;:[]}},&quot;top-leaderboard-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[728,90],[970,90],[970,250]],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;top-leaderboard-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;top_leaderboard&quot;,&quot;pos&quot;:&quot;top&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786113}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:191532}}]}},&quot;bottom-leaderboard-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[728,90],[970,90]],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;bottom-leaderboard-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;bottom_leaderboard&quot;,&quot;pos&quot;:&quot;bottom&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786112}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:193296}}]}},&quot;top-mpu-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[300,250],[300,300],[300,600],&quot;fluid&quot;],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;top-mpu-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;top_medium_rectangle&quot;,&quot;pos&quot;:&quot;top&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786111}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:191532}}]}},&quot;bottom-mpu-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[300,250]],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;bottom-mpu-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;bottom_medium_rectangle&quot;,&quot;pos&quot;:&quot;bottom&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786110}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:193296}}]}},&quot;first-promoted-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:&quot;fluid&quot;,&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/sads/post_download&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;bottom_native_pdp&quot;}}},&quot;exit-intent-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;type&quot;:&quot;exit-intent&quot;,&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;outOfPage&quot;:true,&quot;slotWrapperId&quot;:&quot;exit-intent-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;eint&quot;,&quot;pos&quot;:&quot;top&quot;}}},&quot;bottom-contextual-app-post-download-page-desktop&quot;:[{&quot;provider&quot;:&quot;adsenseLinkUnit&quot;,&quot;isEnabled&quot;:true,&quot;options&quot;:{&quot;style&quot;:&quot;display:block; width: 300px; height: 150px; margin: 20px auto;&quot;,&quot;adSlot&quot;:&quot;3806254405&quot;}},{&quot;provider&quot;:&quot;netseer&quot;,&quot;isEnabled&quot;:true,&quot;options&quot;:{&quot;pageType&quot;:&quot;postDownload&quot;,&quot;numAds&quot;:9,&quot;country&quot;:&quot;VE&quot;}}]}}' />
+
+		<meta class="js-config" name="experiments" content='{&quot;userRandomPosition&quot;:353}' />
+
+
+		
+		
+
+
+
+
+
+<link rel='manifest' href='/manifest.json'>
+ <script src='https://cdn.onesignal.com/sdks/OneSignalSDK.js' async></script>
+ <script>
+   var OneSignal = window.OneSignal || [];
+   OneSignal.push(['init', {
+		 appId: 'b89fd83b-056a-497d-abac-eec36d9dc765',
+		 autoRegister: true,
+		 notifyButton: {
+		   enable: false
+	   },
+	   path: '/'
+   }]);
+
+	 OneSignal.push(["sendTags", {
+		pageId: "app_post_download",
+		displayType: "desktop",
+		devicePlatformId: "windows",
+		browserName: "",
+		appSlug: "conceptdraw",
+		appCategory: "business-productivity",
+		intanceId: "en-US",
+		userId: ""
+   }]);
+
+  OneSignal.push(function() {
+	OneSignal.on('subscriptionChange', function (isSubscribed) {
+	  	OneSignal.getUserId(function(userIdPush) {
+			tracker.track('pushSubscription', {
+				userIdPush: userIdPush,
+				isSubscribed: isSubscribed,
+				locale: document.documentElement && document.documentElement.lang
+			});
+	  	});
+	});
+  });
+
+  OneSignal.push(function() {
+	  OneSignal.getUserId(function(userIdPush) {
+		  if(userIdPush) {
+			  tracker.track('pushVisit', {
+				  userIdPush: userIdPush,
+				  locale: document.documentElement && document.documentElement.lang
+			  });
+		  }
+	  });
+  });
+
+ </script>
+
+
+
+		<link rel="shortcut icon" href="https://m.sftcdn.net/images/34fb4-e13e1.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="https://m.sftcdn.net/images/c2038-19f6f.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="https://m.sftcdn.net/images/ea697-19f6f.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="https://m.sftcdn.net/images/d9087-f28a2.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="https://m.sftcdn.net/images/20b59-adf4b.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="https://m.sftcdn.net/images/2fcab-3e14f.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="https://m.sftcdn.net/images/4c8fb-336c7.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="https://m.sftcdn.net/images/92d79-2b208.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="https://m.sftcdn.net/images/89003-35f3b.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://m.sftcdn.net/images/1b7fb-259c9.png" />
+	
+	<meta class="js-config" name="trackingConfig[common][ua][pageType]" content="/download_success">
+<meta class="js-config" name="trackingConfig[common][ua][programId]" content="98940">
+<meta class="js-config" name="trackingConfig[common][ua][pageName]" content="ConceptDraw PRO">
+<meta class="js-config" name="trackingConfig[common][ua][catLevel1]" content="business-productivity">
+<meta class="js-config" name="trackingConfig[common][ua][catLevel2]" content="undefined">
+<meta class="js-config" name="trackingConfig[common][ua][catLevel3]" content="undefined">
+<meta class="js-config" name="trackingConfig[common][st][page_type]" content="post_download">
+<meta class="js-config" name="trackingConfig[common][st][id_platform]" content="2">
+<meta class="js-config" name="trackingConfig[common][st][id_file]" content="98940">
+<meta class="js-config" name="trackingConfig[common][st][title]" content="conceptdraw">
+<meta class="js-config" name="trackingConfig[common][st][cat_level1]" content="business-productivity">
+<meta class="js-config" name="trackingConfig[common][st][cat_level2]" content="undefined">
+<meta class="js-config" name="trackingConfig[common][st][cat_level3]" content="undefined">
+<meta class="js-config" name="trackingConfig[pageView][st][content_type]" content="applications">
+<meta class="js-config" name="trackingConfig[pageView][st][compliant]" content="1">
+<meta class="js-config" name="trackingConfig[pageView][st][display_download_type]" content="social-login">
+<meta class="js-config" name="trackingConfig[pageView][ua][documentPath]" content="/free/success">
+<meta class="js-config" name="trackingConfig[pageView][ua][section]" content="downloads">
+<meta class="js-config" name="trackingConfig[pageView][ua][platform]" content="windows">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][legacyPlatformId]" content="2">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][appId]" content="98940">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][appSlug]" content="conceptdraw">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][relatedVideosExist]" content="false">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][relatedAppsExist]" content="true">
+<meta class="js-config" name="trackingConfig[downloadAgain][ua][appSlug]" content="conceptdraw">
+<meta class="js-config" name="trackingConfig[transaction][ua][transactionId]" content="1501425792532">
+<meta class="js-config" name="trackingConfig[transaction][ua][appName]" content="ConceptDraw PRO">
+<meta class="js-config" name="trackingConfig[transaction][ua][appCategories]" content="Windows_Business-&-Productivity">
+<meta class="js-config" name="trackingConfig[download][externalDownloadUrl]" content="https://downloads.conceptdraw.com/download/ForUsers/CD/ConceptDrawOffice3Install.exe">
+<meta class="js-config" name="trackingConfig[download][internalDownloadUrl]" content="https://gsf-cf.softonic.com/da3/296/ba11a79cd87c8ca4ff97943d246c344042/ConceptDrawOffice3Install.exe?SD_used=0&channel=WEB&fdh=no&id_file=98940&instance=softonic_en&type=PROGRAM&Expires=1501468314&Signature=fz8BIl4rckWeXwThxINLLwlX~dsqo2mVRoEOBuU8obGp8WiND~vq8zly0ZMSqZ8DN4OlSlvMtSat2K9lZQnbz91BkqsVE6YHrxjqq~CH-EeGxXpaK3XmQtGIKy~1nzVCdY3nS1wDHs2jTsmOk1inN2ue4RrQ88N5EDt4C5dV73o_&Key-Pair-Id=APKAJUA62FNWTI37JTGQ&filename=ConceptDrawOffice3Install.exe">
+<meta class="js-config" name="trackingConfig[download][legacyPlatformId]" content="2">
+<meta class="js-config" name="trackingConfig[download][appId]" content="98940">
+<meta class="js-config" name="trackingConfig[download][appSlug]" content="conceptdraw">
+<meta class="js-config" name="trackingConfig[download][loggedUserId]" content="">
+<meta class="js-config" name="trackingConfig[download][appDownloadTrackingUrl]" content="https://conceptdraw.en.softonic.com/free-download/launch">
+<meta class="js-config" name="trackingConfig[download][notifyDownloadUrl]" content="https://conceptdraw.en.softonic.com/notify-download">
+<meta class="js-config" name="trackingConfig[download][isExternalDownload]" content="">
+<meta class="js-config" name="trackingConfig[download][isDownloadableFile]" content="true">
+<meta class="js-config" name="trackingConfig[download][platformId]" content="windows">
+
+
+	<script>
+		
+		window['GoogleAnalyticsObject'] = 'ga';
+		window['ga'] = window['ga'] || function() {
+			(window['ga'].q = window['ga'].q || []).push(arguments)
+		};
+		ga('create', 'UA-152357-1', 'en.softonic.com');
+
+		
+		WebFontConfig = { custom: { families: ['Roboto', 'Roboto Slab'] } };
+
+		
+		window.sam = window.sam || {}; sam.cmd = sam.cmd || [];
+		
+	
+	sam.cmd.push(function() {
+		sam.prefetch('top-leaderboard-app-post-download-page-desktop');
+		sam.prefetch('top-mpu-app-post-download-page-desktop');
+		sam.prefetch('bottom-mpu-app-post-download-page-desktop');
+		sam.prefetch('bottom-leaderboard-app-post-download-page-desktop');
+		sam.prefetch('bottom-contextual-app-post-download-page-desktop');
+
+		sam.prefetch('exit-intent-app-post-download-page-desktop');
+		
+			sam.prefetch('first-promoted-app-post-download-page-desktop');
+		
+	});
+
+
+		
+		window.tracker = window.tracker || {}; tracker.cmd = tracker.cmd || [];
+
+		
+		window.blockAdBlock = false;
+	</script>
+
+	
+		<link rel="stylesheet" href="https://m.sftcdn.net/styles/f0d91-f5226.css">
+	
+
+	
+	
+		<script crossorigin="anonymous" src="https://m.sftcdn.net/scripts/994e2-7e289.js" async></script>
+		<script src="https://www.googletagservices.com/tag/js/gpt.js" async></script>
+		<script crossorigin="anonymous" src="https://m.sftcdn.net/scripts/fc9eb-941dc.js"></script>
+		<script crossorigin="anonymous" src="https://m.sftcdn.net/scripts/23abc-7ed6b.js" defer></script>
+	
+
+	<script>
+	var amznads = amznads || {};
+	amznads.asyncParams = {
+		id: '3177',
+		callbackFn: function() {
+			try {
+				amznads.setTargetingForGPTAsync('amznslots');
+			} catch (e) {}
+		},
+		timeout: 2000
+	};
+
+	(function() {
+		var a, s = document.getElementsByTagName('script')[0];
+		a = document.createElement('script');
+		a.type = 'text/javascript';
+		a.async = true;
+		a.src = 'https://c.amazon-adsystem.com/aax2/amzn_ads.js';
+		s.parentNode.insertBefore(a, s);
+	})();
+</script>
+
+
+</head>
+<body data-auto="page">
+	
+		<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LWWHP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5LWWHP');</script>
+<!-- End Google Tag Manager -->
+
+	
+
+	
+		<header id="header" class="header">
+	<a href="https://en.softonic.com"
+		class="header__logo"
+		data-auto="header-logo"
+		data-ua="c=click,a=logo" data-st="click_type=logo,e=click">
+		
+
+
+
+<img src="https://m.sftcdn.net/images/b6d3c-be66b.png" alt="Softonic" />
+
+	</a>
+	<nav class="menu" data-auto="menu-sections">
+		
+			
+		
+		<a class="menu__item"
+			href="https://en.softonic.com/windows"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=apps" data-st="click_type=sandwich_section,sandwich_element=apps,e=click">Apps</a>
+		<a class="menu__item"
+			href="https://gamers-academy.softonic.com/?utm_source=Cross%20Promotion&amp;utm_medium=Home%20header"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=games" data-st="click_type=sandwich_section,sandwich_element=games,e=click">Games</a>
+		<a class="menu__item"
+			href="https://features.en.softonic.com"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=features" data-st="click_type=sandwich_section,sandwich_element=features,e=click">Features</a>
+		<a class="menu__item"
+			href="https://videos.en.softonic.com"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=videos" data-st="click_type=sandwich_section,sandwich_element=videos,e=click">Videos</a>
+		
+			<a class="menu__item"
+				href="https://deals.softonic.com/?utm_source=softonic.com&utm_medium=desktop-web&utm_content=header&utm_campaign=test-menu"
+				rel="nofollow"
+				data-ua="c=AppPostDownload,a=ClickMenuSection,l=deals" data-st="click_type=sandwich_section,sandwich_element=deals,e=click">Deals </a>
+		
+	</nav>
+	<div class="header__actions">
+		
+			
+	
+
+<form class="js-site-search site-search"
+	  action=""
+	  data-url="https://en.softonic.com/s/%7Bquery%7D/"
+	data-ua-common="searchTerm=" data-st-common="search_term=">
+	<input class="site-search__query"
+		   type="search"
+		   autocomplete="off"
+		   placeholder="Search for apps, articles..."
+		   data-auto="search-input">
+	<button class="site-search__button"
+			type="submit"
+			data-auto="search-submit"
+		data-ua="#searchTerm,c=search,a=search" data-st="click_type=search,#search_term,#platform_id,e=search">
+		<i class="icon-search" ></i>
+	</button>
+</form>
+
+		
+
+		<div class="header__button" data-auto="menu-os">
+			<a href="#" onclick="this.classList.toggle('header__button--toggle--selected');" class="header__button--toggle">
+				<i class="icon-all-platforms" ></i>
+				<i class="icon-close" ></i>
+			</a>
+			<div class="dropdown-platforms" data-auto="os-dropdown">
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/windows"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=windows" data-st="click_type=sandwich_platform,sandwich_element=windows,e=click"><i class="icon-windows" ></i>Windows</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/iphone"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=iphone" data-st="click_type=sandwich_platform,sandwich_element=iphone,e=click"><i class="icon-iphone" ></i>iPhone</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/android"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=android" data-st="click_type=sandwich_platform,sandwich_element=android,e=click"><i class="icon-android" ></i>Android</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/windows-phone-7"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=windows-phone-7" data-st="click_type=sandwich_platform,sandwich_element=windows-phone-7,e=click"><i class="icon-windows-phone-7" ></i>Windows Phone</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/blackberry"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=blackberry" data-st="click_type=sandwich_platform,sandwich_element=blackberry,e=click"><i class="icon-blackberry" ></i>BlackBerry</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/mac"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=mac" data-st="click_type=sandwich_platform,sandwich_element=mac,e=click"><i class="icon-mac" ></i>Mac</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/web-apps"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=web-apps" data-st="click_type=sandwich_platform,sandwich_element=web-apps,e=click"><i class="icon-web-apps" ></i>Web Apps</a>
+				
+			</div>
+		</div>
+		
+		<div class="header__button" data-auto="header-login">
+			<a class="js-login-button" href="https://en.softonic.com/login-page">
+				<i class="icon-avatar" ></i>
+			</a>
+		</div>
+		
+	</div>
+</header>
+
+	
+
+	
+	<div class="wrapper-content wrapper--white wrapper--padded-h wrapper--padded-t">
+		
+		<ul class="list-breadcrumb" data-auto="breadcrumb">
+	<i class="icon-home" ></i>
+	<li>
+		<a
+			title="Windows"
+			href="https://en.softonic.com/windows">Windows</a>
+	</li>
+	
+		><li>
+			<a title="Business &amp; Productivity" href="https://en.softonic.com/windows/business-productivity">Business &amp; Productivity</a>
+		</li>
+	
+</ul>
+
+
+		
+		
+	
+	
+	<div class="media">
+		<div class="media__image media-app__image">
+			<a title="ConceptDraw PRO" href="https://conceptdraw.en.softonic.com">
+				<img alt="ConceptDraw PRO" src="https://screenshots.en.sftcdn.net/en/scrn/98000/98940/thumbnail_1445429552-98x100.png" width="55" height="55" data-auto="app-icon" itemprop="image" onerror="this.onerror=null;this.src='https://m.sftcdn.net/images/f1936-d9195.png';" />
+			</a>
+		</div>
+		<div class="media__body">
+			<h1 class="media-app__download-title" data-auto="app-name" itemprop="name">
+				<a title="ConceptDraw PRO" href="https://conceptdraw.en.softonic.com">
+					Download <strong>ConceptDraw PRO</strong> for Windows
+				</a>
+			</h1>
+			
+			<ul class="list-app-info list-app-info--inline" data-auto="app-info">
+				
+					<li>Version: 10.2.0.62</li>
+				
+				
+					<li>Size: 240.75 MB</li>
+				
+				
+					<li>Filename: ConceptDrawOffice3Install.exe</li>
+				
+			</ul>
+		</div>
+	</div>
+
+
+		
+		
+
+		
+		
+
+		
+		
+
+
+
+
+
+<iframe id="iframe-download-launcher" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+<div class="app-post-download-downloading">
+	<div class="media media--top media--reverse">
+		<div class="media__body">
+			
+				<h2 class="app-post-download-downloading__title">Downloading</h2>
+				<p class="app-post-download-downloading__subtitle is-hidden">If the download doesn't start automatically, <a title="click here" href="#" class='js-launch-download' data-download='{"isExternalDownload":false,"downloadUrl":"https://gsf-cf.softonic.com/da3/296/ba11a79cd87c8ca4ff97943d246c344042/ConceptDrawOffice3Install.exe?SD_used=0&channel=WEB&fdh=no&id_file=98940&instance=softonic_en&type=PROGRAM&Expires=1501468314&Signature=fz8BIl4rckWeXwThxINLLwlX~dsqo2mVRoEOBuU8obGp8WiND~vq8zly0ZMSqZ8DN4OlSlvMtSat2K9lZQnbz91BkqsVE6YHrxjqq~CH-EeGxXpaK3XmQtGIKy~1nzVCdY3nS1wDHs2jTsmOk1inN2ue4RrQ88N5EDt4C5dV73o_&Key-Pair-Id=APKAJUA62FNWTI37JTGQ&filename=ConceptDrawOffice3Install.exe","launchDownloadOnStart":true}'>click here</a></p>
+			
+				<div class="loading-bar">
+					<div class="loading-bar__growing-item"></div>
+				</div>
+		</div>
+
+	
+		<div class="download-experience is-hidden">
+			<input id="checkbox_rating" type="checkbox" class="download-experience__checkbox">
+			<div class="download-experience__success-message is-hidden">Thank you for sharing your feedback</div>
+
+			<p class="download-experience__question">Satisfied with your download experience?</p>
+			<label for="checkbox_rating" class="download-experience__option download-experience__option--like" data-ua="c=VoteDownloadSatisfaction,a=up,l=hosted_windows_conceptdraw" >
+				<input type="hidden" name="like" id="like"/>
+				<i class="icon-thumbs-o-up"></i>
+			</label>
+			<label for="checkbox_rating"  class="download-experience__option download-experience__option--dislike" data-ua="c=VoteDownloadSatisfaction,a=down,l=hosted_windows_conceptdraw" >
+				<input type="hidden" name="dislike" id="dislike"/>
+				<i class="icon-thumbs-o-down"></i>
+			</label>
+		</div>
+	
+
+	</div>
+
+	
+	
+
+</div>
+
+
+		
+		
+
+
+
+<div class="app-post-download-failed is-hidden">
+	<div class="app-post-download-failed__message">
+		<div class="media media--top media--reverse">
+			<div class="media__body">
+				<p>The <a title="Attempting to download the requested file from the publisher's website" href="#" class='js-launch-download' data-download='{"isExternalDownload":false,"downloadUrl":"https://gsf-cf.softonic.com/da3/296/ba11a79cd87c8ca4ff97943d246c344042/ConceptDrawOffice3Install.exe?SD_used=0&channel=WEB&fdh=no&id_file=98940&instance=softonic_en&type=PROGRAM&Expires=1501468314&Signature=fz8BIl4rckWeXwThxINLLwlX~dsqo2mVRoEOBuU8obGp8WiND~vq8zly0ZMSqZ8DN4OlSlvMtSat2K9lZQnbz91BkqsVE6YHrxjqq~CH-EeGxXpaK3XmQtGIKy~1nzVCdY3nS1wDHs2jTsmOk1inN2ue4RrQ88N5EDt4C5dV73o_&Key-Pair-Id=APKAJUA62FNWTI37JTGQ&filename=ConceptDrawOffice3Install.exe"}'">download link</a> from the publisher's site appears to be broken</p>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+
+		<p class="app-post-download-failed__alt-message">
+			<a href="#" rel="nofollow noopener noreferrer" class='js-launch-download' data-download='{"isExternalDownload":true,"downloadUrl":"https://downloads.conceptdraw.com/download/ForUsers/CD/ConceptDrawOffice3Install.exe"}'>Alternative ConceptDraw PRO download</a> from external server (availability not guaranteed)</p>
+		</p>
+
+</div>
+
+	</div>
+
+	
+	
+	<div class="wrapper-content wrapper--white">
+		
+		
+	<div class="leaderboard" id="top-leaderboard-app-post-download-page-desktop-wrapper" data-auto="top-leaderboard-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="top-leaderboard-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('top-leaderboard-app-post-download-page-desktop'); });</script>
+	</div>
+	
+
+
+	<div class="wrapper ">
+		<div class="wrapper-content wrapper--padded-h wrapper--spaced-b wrapper--white">
+			
+	<div class="content">
+		<section>
+			<div>
+				
+				
+
+				
+				
+					
+
+<section class="top-apps-by-category" data-auto="top-apps">
+	
+	<h2 class="app-post-download-title">
+		Explore undefined category
+	</h2>
+
+	<div class="tabs">
+		
+		
+			<input name="tab-downloads" id="tab-downloads1" type="radio" class="tabs__check input1" checked>
+			<section class="tabs__item">
+				<h3>
+					<label class="tabs__title tabs__title--3tabs" for="tab-downloads1" data-ua="c=AppPostDownload,a=ClickExploreCategoryTab,l=top-softonic" >
+						<span>Top Softonic</span>
+					</label>
+				</h3>
+			</section>
+		
+
+		
+		
+			<input name="tab-downloads" id="tab-downloads2" type="radio" class="tabs__check input2" >
+			<section class="tabs__item">
+				<h3>
+					<label class="tabs__title tabs__title--3tabs" for="tab-downloads2"data-ua="c=AppPostDownload,a=ClickExploreCategoryTab,l=top-user" >
+						<span>Top users</span>
+					</label>
+				</h3>
+			</section>
+		
+
+		
+		
+			<input name="tab-downloads" id="tab-downloads3" type="radio" class="tabs__check input3" >
+			<section class="tabs__item">
+				<h3>
+					<label class="tabs__title tabs__title--3tabs" for="tab-downloads3" data-ua="c=AppPostDownload,a=ClickExploreCategoryTab,l=latest" >
+						<span>Latest apps</span>
+					</label>
+				</h3>
+			</section>
+		
+
+		<div class="container-banner">
+			<div class="banner_item">
+				
+	<div class="" id="first-promoted-app-post-download-page-desktop-wrapper" data-auto="">
+		<p class="banner__title">Advertisement</p>
+		<div id="first-promoted-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('first-promoted-app-post-download-page-desktop'); });</script>
+			</div>
+		</div>
+
+		
+			<div class="tabs__content tab1">
+				<ul class="top-apps-by-category__list">
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://m.sftcdn.net/images/f1936-d9195.png" alt="Adobe Reader" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/f1936-d9195.png" alt="Adobe Reader" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://adobe-reader.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Adobe Reader</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Adobe Reader 11: the essential PDF viewer</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--100" fill="none" stroke-width="6" stroke-dashoffset=100 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=10 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">10</text></svg></div>
+		<p class="media-app__rating-info top-apps-by-category__detail">
+
+			
+				Essential
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://adobe-reader.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+		
+	
+	
+	
+	
+	
+	
+	<a
+		href="https://acrobat.adobe.com/es/es/pricing/pricing.html?sdid=WKRCJHXY"
+		rel="nofollow"
+		class="btn btn--small btn--buy "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		data-auto="buy-button">
+			<strong>
+				Buy now
+				
+			</strong>
+			<i class="icon-buy" ></i>
+	</a>
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/38000/38341/foxit-reader-16-100x100.png" alt="Foxit Reader" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/38000/38341/foxit-reader-16-100x100.png" alt="Foxit Reader" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://foxit-reader.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Foxit Reader</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Foxit Reader</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--90" fill="none" stroke-width="6" stroke-dashoffset=90 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=9 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">9</text></svg></div>
+		<p class="media-app__rating-info top-apps-by-category__detail">
+
+			
+				Excellent
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://foxit-reader.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/21000/21277/apache-openoffice-01-100x100.png" alt="Apache OpenOffice" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/21000/21277/apache-openoffice-01-100x100.png" alt="Apache OpenOffice" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://openoffice.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Apache OpenOffice</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">A great (and free) alternative to Microsoft Office</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--90" fill="none" stroke-width="6" stroke-dashoffset=90 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=9 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">9</text></svg></div>
+		<p class="media-app__rating-info top-apps-by-category__detail">
+
+			
+				Excellent
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://openoffice.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/37000/37554/spss-01-100x100.png" alt="SPSS" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/37000/37554/spss-01-100x100.png" alt="SPSS" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://spss.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">SPSS</h3>
+		
+			<h3 class="media-app__license media-app__license--buy"> Full paid version</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Powerful tool for managing and using your SPSS data</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--90" fill="none" stroke-width="6" stroke-dashoffset=90 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=9 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">9</text></svg></div>
+		<p class="media-app__rating-info top-apps-by-category__detail">
+
+			
+				Excellent
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://spss.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/31000/31176/thumbnail_1400579964-93x100.png" alt="PDFCreator" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/31000/31176/thumbnail_1400579964-93x100.png" alt="PDFCreator" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://pdfcreator.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">PDFCreator</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Create a free PDF file from any document</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--90" fill="none" stroke-width="6" stroke-dashoffset=90 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=9 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">9</text></svg></div>
+		<p class="media-app__rating-info top-apps-by-category__detail">
+
+			
+				Excellent
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://pdfcreator.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+				</ul>
+				<a href="https://en.softonic.com/windows/business-productivity:top-downloads"
+					title="Top Softonic"
+					class="btn-more--outline"
+					data-ua="label=undefined,c=AppPostDownload,a=ClickExploreCategory"  >
+					Explore undefined category
+				</a>
+			</div>
+		
+
+		
+			<div class="tabs__content tab2">
+				<ul class="top-apps-by-category__list">
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/3000/3275/cabook-1.jpg" alt="CaBook" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/3000/3275/cabook-1.jpg" alt="CaBook" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://cabook.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">CaBook</h3>
+		
+			<h3 class="media-app__license media-app__license--buy"> Full paid version</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Address book manager for MS Outlook</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--100" fill="none" stroke-width="6" stroke-dashoffset=100 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=10 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">10</text></svg></div>
+		<p class="media-app__rating-info">
+
+			
+				1 vote
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://cabook.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://m.sftcdn.net/images/f1936-d9195.png" alt="Power Clock" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/f1936-d9195.png" alt="Power Clock" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://power-clock.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Power Clock</h3>
+		
+			<h3 class="media-app__license media-app__license--buy"> Full paid version</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">The ultimate employee time clock software</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--100" fill="none" stroke-width="6" stroke-dashoffset=100 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=10 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">10</text></svg></div>
+		<p class="media-app__rating-info">
+
+			
+				3 votes
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://power-clock.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+		
+	
+	
+	
+	
+	
+	
+	<a
+		href="http://send.onenetworkdirect.net/z/223629/CD133141/5726_EN/&amp;languageid=1&amp;currencies=USD"
+		rel="nofollow"
+		class="btn btn--small btn--buy "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		data-auto="buy-button">
+			<strong>
+				Buy now
+				
+			</strong>
+			<i class="icon-buy" ></i>
+	</a>
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/7000/7555/jot-notes-4.jpg" alt="Jot+ Notes" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/7000/7555/jot-notes-4.jpg" alt="Jot+ Notes" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://jot-notes.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Jot+ Notes</h3>
+		
+			<h3 class="media-app__license media-app__license--buy"> Full paid version</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Comprehensive note keeping</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--100" fill="none" stroke-width="6" stroke-dashoffset=100 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=10 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">10</text></svg></div>
+		<p class="media-app__rating-info">
+
+			
+				1 vote
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://jot-notes.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/9000/9545/reunite-7.png" alt="Reunite" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/9000/9545/reunite-7.png" alt="Reunite" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://reunite.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Reunite</h3>
+		
+			<h3 class="media-app__license media-app__license--buy"> Full paid version</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Plan your family and school reunions to perfection</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--100" fill="none" stroke-width="6" stroke-dashoffset=100 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=10 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">10</text></svg></div>
+		<p class="media-app__rating-info">
+
+			
+				1 vote
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://reunite.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://m.sftcdn.net/images/f1936-d9195.png" alt="KazStamp" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/f1936-d9195.png" alt="KazStamp" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://kazstamp.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">KazStamp</h3>
+		
+			<h3 class="media-app__license media-app__license--buy"> Full paid version</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Print professional looking envelopes and tri-fold mailings easily</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<div class="media-app__rating">
+		
+		<div class="rating-score"><svg class="rating-score__content" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"><path class="rating-score__background rating-score--good" fill="none" stroke-width="6" stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><path class="rating-score__value rating-score__value--100" fill="none" stroke-width="6" stroke-dashoffset=100 stroke-miterlimit="10" d="M40 40c8.3-8.3 8.3-21.7 0-30s-21.7-8.3-30 0 -8.3 21.7 0 30"></path><text class="rating-score__number" content=10 text-anchor="middle" transform="matrix(1 0 0 1 25 31.0837)" data-auto="app-user-score">10</text></svg></div>
+		<p class="media-app__rating-info">
+
+			
+				1 vote
+			
+		</p>
+	</div>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://kazstamp.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+				</ul>
+				<a href="https://en.softonic.com/windows/business-productivity:top-downloads"
+					title="Top Softonic"
+					class="btn-more--outline"
+					data-ua="label=undefined,c=AppPostDownload,a=ClickExploreCategory"  >
+					Explore undefined category
+				</a>
+			</div>
+		
+
+		
+			<div class="tabs__content tab3">
+				<ul class="top-apps-by-category__list">
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69719000/69719587/image-01-100x100.png" alt="Documents and Templates" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69719000/69719587/image-01-100x100.png" alt="Documents and Templates" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://documents-and-templates.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Documents and Templates</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Access more than 20,000 professional documents and templates for personal and business purposes</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<p class="top-apps-by-category__detail">
+		in 6 days
+	</p>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://documents-and-templates.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://m.sftcdn.net/images/f1936-d9195.png" alt="NG 2017 ERP/CRM" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/f1936-d9195.png" alt="NG 2017 ERP/CRM" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://ng-erp-crm.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">NG 2017 ERP/CRM</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description"></h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<p class="top-apps-by-category__detail">
+		a month ago
+	</p>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://ng-erp-crm.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69740000/69740070/notion-01-100x100.png" alt="Notion" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69740000/69740070/notion-01-100x100.png" alt="Notion" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://notion-1.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Notion</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Notion is a bright idea for working in harmony</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<p class="top-apps-by-category__detail">
+		3 months ago
+	</p>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://notion-1.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69740000/69740152/meetingbird-02-100x100.png" alt="Meetingbird" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69740000/69740152/meetingbird-02-100x100.png" alt="Meetingbird" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://meetingbird.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Meetingbird</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Free Tool for Teams</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<p class="top-apps-by-category__detail">
+		3 months ago
+	</p>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://meetingbird.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+						<li class="top-apps-by-category__item">
+							
+
+
+
+<div class="media media--top media-app media-app--medium">
+	<div class="media__image media-app__image">
+		<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69740000/69740163/raindrop-io-4-0-01-100x100.png" alt="Raindrop.io 4.0" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69740000/69740163/raindrop-io-4-0-01-100x100.png" alt="Raindrop.io 4.0" width=55 height=55></noscript>
+	</div>
+	<a class="media__body"
+	href="https://raindrop-io-4-0.en.softonic.com"
+	data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=title" >
+		<h3 class="media-app__title" data-auto="app-name" itemprop="name">Raindrop.io 4.0</h3>
+		
+			<h3 class="media-app__license media-app__license--free"> Free Download</h3>
+		
+		<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Go No-Holds-Barred with Your Bookmarking</h4>
+	</a>
+</div>
+<div class="top-apps-by-category__info">
+
+	<p class="top-apps-by-category__detail">
+		3 months ago
+	</p>
+
+</div>
+<div class="top-apps-by-category__cta">
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://raindrop-io-4-0.en.softonic.com/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=ClickExploreCategoryItem,l=cta" 
+		
+		
+		
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+	
+
+	
+
+</div>
+
+						</li>
+					
+				</ul>
+				<a href="https://en.softonic.com/windows/business-productivity:top-downloads"
+					title="Top Softonic"
+					class="btn-more--outline"
+					data-ua="label=undefined,c=AppPostDownload,a=ClickExploreCategory"  >
+					Explore undefined category
+				</a>
+			</div>
+		
+	</div>
+</section>
+<script>
+	tracker.cmd.push(function() {
+		tracker.track('showExploreCategory');
+	});
+</script>
+
+				
+			</div>
+		</secion>
+	</div>
+
+			
+	<div class="aside aside--sticky">
+
+		
+		
+			
+	  	
+	<div class="banner--text-centered" id="bottom-contextual-app-post-download-page-desktop-wrapper" data-auto="contextual-advertisement">
+		<p class="banner__title">Advertisement</p>
+		<div id="bottom-contextual-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('bottom-contextual-app-post-download-page-desktop'); });</script>
+		
+
+		
+		
+	<div class="rectangle" id="top-mpu-app-post-download-page-desktop-wrapper" data-auto="mpu-banner-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="top-mpu-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('top-mpu-app-post-download-page-desktop'); });</script>
+
+		
+		
+
+		
+		
+			<section data-auto="top-apps">
+	<h2 class="title-section">
+		— Top downloads —
+	</h2>
+		<ul class="box">
+			
+				<li>
+
+<a title="Adobe Reader"
+   href="https://adobe-reader.en.softonic.com"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_1"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Adobe Reader" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://m.sftcdn.net/images/f1936-d9195.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Adobe Reader</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Adobe Reader 11: the essential PDF viewer</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="Microsoft Office 2013"
+   href="https://microsoft-office.en.softonic.com"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_2"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Microsoft Office 2013" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/3348000/3348529/microsoft-office-2013-23-100x100.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Microsoft Office 2013</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Free 30-day trial of Microsoft Office 2013 Professional Plus</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="Microsoft Office 2007 Service Pack 3"
+   href="https://microsoft-office-2007-service-pack-3.en.softonic.com"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_3"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Microsoft Office 2007 Service Pack 3" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/3331000/3331930/microsoft-office-2007-service-pack-3-sp3-02-100x100.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Microsoft Office 2007 Service Pack 3</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Make Microsoft Office 2007 better than ever</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="Microsoft Excel 2013"
+   href="https://microsoft-excel.en.softonic.com"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_4"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Microsoft Excel 2013" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/6653000/6653655/microsoft-excel-2013-12-100x100.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Microsoft Excel 2013</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Smarter and easier workbooks</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="Free Word to PDF Converter"
+   href="https://free-word-to-pdf-converter.en.softonic.com"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_5"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Free Word to PDF Converter" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69669000/69669343/thumbnail_1381682829-100x100.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Free Word to PDF Converter</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Organise your documents with Free Word to PDF Converter </h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+		</ul>
+		
+		<a href="https://en.softonic.com/windows/business-productivity:top-downloads"
+			title="Top downloads"
+			class="btn-more--outline"
+			data-ua="c=AppPostDownload,a=ClickTopDownloadsSeeAll,l=conceptdraw"  >
+			More
+		</a>
+</section>
+
+		
+
+		
+		
+	<div class="rectangle wrapper--padded-b" id="bottom-mpu-app-post-download-page-desktop-wrapper" data-auto="bottom-mpu-banner-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="bottom-mpu-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('bottom-mpu-app-post-download-page-desktop'); });</script>
+
+	</div>
+
+		</div>
+	</div>
+
+	<div class="wrapper-content">
+		
+	
+	
+
+	
+	
+		
+<section class="app-related-content clearfix">
+	<h2 class="title-section" data-auto="related-articles-title">
+		— Features — <span>about ConceptDraw PRO</span>
+	</h2>
+	<ul class="clearfix" data-auto="related-articles">
+		
+			<li class="col-4 col--has-actions">
+				<article class="cu-article">
+	<a href="https://en.softonic.com/articles/easily-create-any-kind-of-charts"
+		data-ua="c=AppPostDownload,a=ClickRelatedArticlesItem,l=conceptdraw_easily-create-any-kind-of-charts_1" data-st="click_type=feature,feature_name=easily-create-any-kind-of-charts,feature_id=5420,feature_position=1,e=click" >
+		
+		<div class="cu-article__image">
+			<img data-lazy data-lazy-src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Easily create any kind of charts" data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Easily create any kind of charts"></noscript>
+		</div>
+		<span class="cu-article__label">various</span>
+		<h3 class="cu-article__headline">Easily create any kind of charts</h3>
+	</a>
+</article>
+
+			</li>
+		
+			<li class="col-4 col--has-actions">
+				<article class="cu-article">
+	<a href="https://en.softonic.com/articles/clearer-ideas-with-conceptdraw-mindmap"
+		data-ua="c=AppPostDownload,a=ClickRelatedArticlesItem,l=conceptdraw_clearer-ideas-with-conceptdraw-mindmap_2" data-st="click_type=feature,feature_name=clearer-ideas-with-conceptdraw-mindmap,feature_id=4774,feature_position=2,e=click" >
+		
+		<div class="cu-article__image">
+			<img data-lazy data-lazy-src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Clearer ideas with ConceptDraw MindMap" data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Clearer ideas with ConceptDraw MindMap"></noscript>
+		</div>
+		<span class="cu-article__label">review</span>
+		<h3 class="cu-article__headline">Clearer ideas with ConceptDraw MindMap</h3>
+	</a>
+</article>
+
+			</li>
+		
+	</ul>
+	<a href="https://features.en.softonic.com"
+		data-auto="more-related-articles"
+		class="btn-more--outline"
+		data-ua="c=AppPostDownload,a=ClickRelatedArticlesReadMore,l=conceptdraw"  >
+		Read more stories
+	</a>
+</section>
+
+	
+
+	
+	<div class="wrapper--padded-h">
+		
+	<div class="leaderboard" id="bottom-leaderboard-app-post-download-page-desktop-wrapper" data-auto="bottom-leaderboard-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="bottom-leaderboard-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('bottom-leaderboard-app-post-download-page-desktop'); });</script>
+	</div>
+
+	</div>
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<footer class="footer">
+	<section class="footer__info">
+		<div class="wrapper-content">
+			<div class="content">
+				<div class="footer__col" data-auto="footer-about">
+					<p class="footer__title">
+						About Us
+					</p>
+					<ul class="footer__list">
+						<li>
+							<a class="footer__link" title="Softonic Info" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/">
+								Softonic Info
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Help & Support" rel="nofollow" target="_blank"
+								href="https://get-support.softonic.com/">
+								Help & Support
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Jobs" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/careers/#join-us">
+								Jobs
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Company News" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/press-room/">
+								Company News
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Legal Information" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/legal-information/">
+								Legal Information
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Cookie Policy" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/cookies-policy/">
+								Cookie Policy
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col" data-auto="footer-developers">
+					<p class="footer__title">
+						Developers
+					</p>
+					<ul class="footer__list">
+						<li>
+							<a class="footer__link" title="Softonic Developer Center"
+							    rel="nofollow"
+								target="_blank" href="http://dev-support.softonic.com/customer/en/portal/articles/2560330-softonic-developer-center-is-no-longer-available">
+								Softonic Developer Center
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Upload and Manage your Software"
+							    rel="nofollow"
+							    target="_blank"
+								href="http://dev-support.softonic.com/customer/en/portal/articles/2567950-how-can-i-publish-my-app-on-softonic">
+								Upload and Manage your Software
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Software Policy" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/software-policy/">
+								Software Policy
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col" data-auto="footer-partners">
+					<p class="footer__title">
+						Partners
+					</p>
+					<ul class="footer__list">
+						<li>
+							<a class="footer__link" title="Advertising Opportunities"
+							    rel="nofollow"
+							    target="_blank"
+								href="https://hello.softonic.com/for-advertisers/#advertising-solutions">
+								Advertising Opportunities
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col" data-auto="footer-users">
+					<p class="footer__title">
+						Users
+					</p>
+					<ul class="footer__list">
+						<li data-auto="footer-social">
+							<ul class="footer__list footer__list--social">
+								<li>
+									<a title="Become a fan of Softonic"
+										class="footer__icon footer__icon--facebook"
+										rel="nofollow" target="_blank"
+										href="https://www.facebook.com/softonic.en/">
+										<span>
+											Become a fan of Softonic
+										</span>
+										<i class="icon-facebook" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Follow us @Softonic"
+										class="footer__icon footer__icon--twitter"
+										rel="nofollow" target="_blank"
+										href="https://twitter.com/softonic">
+										<span>
+											Follow us @Softonic
+										</span>
+										<i class="icon-twitter" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Google+"
+										class="footer__icon footer__icon--google-plus"
+										rel="nofollow" target="_blank"
+										href="https://plus.google.com/103976998075187754475/">
+										<span>
+											Google+
+										</span>
+										<i class="icon-google-plus" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="LinkedIn"
+										class="footer__icon footer__icon--linkedin"
+										rel="nofollow" target="_blank"
+										href="https://www.linkedin.com/company/softonic">
+										<span>
+											LinkedIn
+										</span>
+										<i class="icon-linkedin" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Flickr"
+										class="footer__icon footer__icon--flickr"
+										rel="nofollow" target="_blank"
+										href="https://www.flickr.com/photos/softonic">
+										<span>
+											Flickr
+										</span>
+										<i class="icon-flickr" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Subscribe to our RSS feeds"
+										class="footer__icon footer__icon--rss"
+										rel="nofollow" target="_blank"
+										href="https://en.softonic.com/feeds">
+										<!-- TODO customize link -->
+										<span>
+											Subscribe to our RSS feeds
+										</span>
+										<i class="icon-rss" ></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="footer__link" title="Softonic Solutions"
+								target="_blank" href="https://solutions.softonic.com/?utm_source=Cross%20Promotion&utm_medium=Footer&utm_term=en-US">
+								Softonic Solutions
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Softonic Deals"
+								rel="nofollow" target="_blank"
+								href="https://deals.softonic.com/">
+								Softonic Deals
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Softonic Newsletters"
+								target="_blank"
+								href="https://newsletters.softonic.com?utm_medium=referral&amp;utm_source=en.softonic.com&amp;utm_campaign=footer">
+								Softonic Newsletters
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Looking for mobile apps? Go to AppCrawlr"
+								target="_blank"
+								href="http://appcrawlr.com">
+								AppCrawlr
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Softonic Business"
+								target="_blank"
+								rel="nofollow"
+								href="https://business.softonic.com/">
+								Softonic Business
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	
+		
+		
+			
+		
+	
+
+	<section class="footer__sitemaps" data-auto="footer-sitemaps">
+		<div class="wrapper-content">
+			<div class="content">
+				<div class="footer__break footer__df">
+					<p class="footer__title footer__title--inline">
+						Sitemaps:
+					</p>
+					<ul class="footer__list footer__list--h">
+						<li>
+							<a class="footer__link" title="All software"
+							   target="_blank"
+							   href="https://en.softonic.com/download">
+								All software
+							</a>
+							
+								- <a class="footer__link" title="C"
+									 target="_blank"
+									 href="https://en.softonic.com/download/programs/c">
+								C
+							</a>
+							
+						</li>
+						<li>
+							
+							<a class="footer__link" title="New Software Windows"
+							   target="_blank"
+							   href="https://en.softonic.com/download/new-software/windows">
+								New Software Windows
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="All topics"
+							   target="_blank"
+							   href="https://en.softonic.com/download/topics">
+								All topics
+							</a>
+							
+								- <a class="footer__link" title="C"
+									 target="_blank"
+									 href="https://en.softonic.com/download/topics/c">
+								C
+							</a>
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer__languages" data-auto="footer-languages">
+		<div class="wrapper-content">
+			<div class="content">
+				<div class="footer__break footer__df">
+					<p class="footer__title footer__title--inline">
+						Softonic in:
+					</p>
+					
+
+<ul class="footer__list footer__list--h">
+	
+
+	
+	
+		<li>
+			<a class="footer__link "
+				title="Español" hreflang="es-ES" href="https://www.softonic.com">
+				Español
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link footer__link--current"
+				title="English" hreflang="en-US" href="https://en.softonic.com">
+				English
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Français" hreflang="fr-FR" href="https://fr.softonic.com">
+				Français
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Deutsch" hreflang="de-DE" href="https://de.softonic.com">
+				Deutsch
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Italiano" hreflang="it-IT" href="https://it.softonic.com">
+				Italiano
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Português" hreflang="pt-BR" href="https://www.softonic.com.br">
+				Português
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Polski" hreflang="pl-PL" href="https://www.softonic.pl">
+				Polski
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Nederlands" hreflang="nl-NL" href="https://nl.softonic.com">
+				Nederlands
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="日本語" hreflang="ja-JP" href="https://www.softonic.jp">
+				日本語
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Türkçe" hreflang="tr-TR" href="https://tr.softonic.com/">
+				Türkçe
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="한국어/조선말" hreflang="ko-KR" href="https://ko.softonic.com/">
+				한국어/조선말
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Svenska" hreflang="sv-SE" href="https://sv.softonic.com/">
+				Svenska
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Русский" hreflang="ru-RU" href="https://ru.softonic.com">
+				Русский
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="عربي" hreflang="ar-SA" href="https://ar.softonic.com">
+				عربي
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="עִבְרִית" hreflang="he-IL" href="https://he.softonic.com">
+				עִבְרִית
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Dansk" hreflang="da-DK" href="https://da.softonic.com">
+				Dansk
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Suomi" hreflang="fi-FI" href="https://fi.softonic.com">
+				Suomi
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Bahasa Indonesia" hreflang="id-ID" href="https://id.softonic.com">
+				Bahasa Indonesia
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Bahasa Melayu" hreflang="ms-MY" href="https://ms.softonic.com">
+				Bahasa Melayu
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Tiếng Việt" hreflang="vi-VN" href="https://vi.softonic.com">
+				Tiếng Việt
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Tagalog" hreflang="tl-PH" href="https://tl.softonic.com">
+				Tagalog
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Română" hreflang="ro-RO" href="https://ro.softonic.com">
+				Română
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="ภาษาไทย" hreflang="th-TH" href="https://th.softonic.com">
+				ภาษาไทย
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="български език" hreflang="bg-BG" href="https://bg.softonic.com">
+				български език
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Magyar" hreflang="hu-HU" href="https://hu.softonic.com">
+				Magyar
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Ελληνικά" hreflang="el-GR" href="https://el.softonic.com">
+				Ελληνικά
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Čeština" hreflang="cs-CZ" href="https://cs.softonic.com">
+				Čeština
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Svenska" hreflang="sv-SE" href="https://sv.softonic.com">
+				Svenska
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Norsk" hreflang="no-NO" href="https://no.softonic.com">
+				Norsk
+			</a>
+		</li>
+	
+	
+</ul>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer__legal" data-auto="footer-legal">
+	<div class="wrapper-content">
+		<div class="content">
+			<img src="https://m.sftcdn.net/images/11521-0098a.png"
+				alt="Softonic logo" width="160" height="34"/>
+			<p>
+				The name and logo of Softonic are registered trademarks of SOFTONIC INTERNATIONAL S.A.
+			</p>
+			<p>
+				Copyright SOFTONIC INTERNATIONAL S.A. © 1997-2016 - All rights reserved
+			</p>
+		</div>
+	</div>
+</section>
+
+</footer>
+
+	
+
+	
+	<div id="wallpaper-app-post-download-page-desktop"></div>
+
+	
+	
+	<div class="exit-intent-modal is-hidden" id="exit-intent-app-post-download-page-desktop-wrapper" data-auto="">
+		<p class="banner__title">Advertisement</p>
+		<div id="exit-intent-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('exit-intent-app-post-download-page-desktop'); });</script>
+	<div class="exit-intent-modal__overlay js-modal-opaque-layer ei-close is-hidden"></div>
+
+
+	
+		
+<div id="message-cookie" class="message-cookie is-hidden" data-auto="message-cookie">
+  <a href="#" class="message-cookie__close" data-dm-hide><i class="icon-close" ></i></a>
+  <p>
+    We use own and third party cookies to improve our services and your experience. This includes to personalise ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. If you continue browsing, you are considered to have accepted such use. You may change your cookie preferences and obtain more information <a class="message-cookie__link" href="https://corporatev1.softonic.com/legal-information/cookies-policy">here</a>.
+  </p>
+</div>
+
+	
+
+	
+		
+
+<!-- Begin comScore Tag -->
+
+<script>
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "15548145" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+	</script>
+<noscript>
+	<img class="is-hidden" alt="" src="https://sb.scorecardresearch.com/p?c1=2&c2=15548145&cv=2.0&cj=1">
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- Begin Commission Junction Tag -->
+<script src="//www.anrdoezrs.net/am/7074958/include/allCj/impressions/page/am.js"></script>
+<!-- End Commission Junction Tag -->
+
+<!-- Begin Viglink Tag -->
+<script type="text/javascript">
+ 	var vglnk = { key: 'df6d80a1b9f24a97ccf28528d3782d98' };
+	(function(d, t) {
+		var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+		s.src = '//cdn.viglink.com/api/vglnk.js';
+		var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+	}(document, 'script'));
+</script>
+<!-- End Viglink Tag -->
+
+	
+
+	
+	
+		<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Adblock for Charity --><div id="om-vdgkwytmd3kgzmizdjqo-holder"></div><script>var vdgkwytmd3kgzmizdjqo,vdgkwytmd3kgzmizdjqo_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){vdgkwytmd3kgzmizdjqo_poll(function(){if(window['om_loaded']){if(!vdgkwytmd3kgzmizdjqo){vdgkwytmd3kgzmizdjqo=new OptinMonsterApp();return vdgkwytmd3kgzmizdjqo.init({"u":"9844.590082","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;vdgkwytmd3kgzmizdjqo=new OptinMonsterApp();vdgkwytmd3kgzmizdjqo.init({"u":"9844.590082","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+	
+</body>
+</html>
