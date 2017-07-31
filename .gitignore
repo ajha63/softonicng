@@ -1,3 +1,5 @@
 download/*
 winsoft.json
 *.json
+__pycache__
+__pycache__/*

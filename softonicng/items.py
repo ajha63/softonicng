@@ -11,11 +11,12 @@ import scrapy
 class SoftonicngItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    image_urls = scrapy.Field()
-    images = scrapy.Field()
-    file_urls = scrapy.Field()
-    files = scrapy.Field() 
     title = scrapy.Field()
     os = scrapy.Field()
     description = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
 
+class FileItem(scrapy.Item):
+	file_urls = scrapy.Field()
+	files = scrapy.Field()
