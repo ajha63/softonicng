@@ -3,3 +3,5 @@ winsoft.json
 *.json
 __pycache__
 __pycache__/*
+softonicng/spiders/__pycache__
+softonicng/spiders/__pycache__/*
