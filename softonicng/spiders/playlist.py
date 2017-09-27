@@ -14,9 +14,13 @@ class WindsoftSpider(scrapy.Spider):
     	for item in response.xpath('//*[@id="search-results"]/a'):
     		pathToDetails = '//*[@id="search-results"]/a[{:d}]/@href'.format(IND)
     		itemDetails = item.xpath(pathToDetails).extract_first()
+    		# remove all self.logger.debug
     		self.logger.debug(itemDetails)
     		IND += 1
 
     	next_page = response.css('a.next ::attr(href)').extract_first()
     	if next_page:
     		yield scrapy.Request(response.urljoin(next_page), callback=self.parse)
+
+    def parse_package(self, response):
+    	pass
