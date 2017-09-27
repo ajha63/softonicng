@@ -21,6 +21,7 @@ class WindsoftSpider(scrapy.Spider):
 			yield scrapy.Request(response.urljoin(next_page), callback=self.parse)
 
 	def parse_package(self, response):
+		# fecth images
 		img = response.xpath('//*[@id="content-body-product-single"]/header/h1/span[1]/img/@src')
 		imageURL = [img.extract_first()]
 		screenShots = '//*[@id="product-screenshots"]/div[2]/div/ul/li'
@@ -28,6 +29,23 @@ class WindsoftSpider(scrapy.Spider):
 			imageSrc = image.css('img.om-image-view  ::attr(data-large-img)').extract_first()
 			imageURL.append(imageSrc)
 
+		# fecth data
+		packageNamePath = '//*[@id="content-body-product-single"]/header/h1/span[2]/text()'
+		packageName = response.xpath(packageNamePath).extract_first()
+
+		packageVerPath = '//*[@id="specsPubVersion"]/td[2]/text()'
+		packageVer = response.xpath(packageVerPath).extract_first()
+
+		osPath = '//*[@id="specsOperatingSystem"]/td[2]/text()'
+		osName = response.xpath(osPath).extract_first()
+
+		descripPath = 'normalize-space(//*[@id="publisher-description"]/p/text())'
+		descripCaption = response.xpath(descripPath).extract_first()
+
 		yield DownloadngItem(
+			title = '{:s} {:s}'.format(packageName, packageVer),
+			os = osName.strip(),
+			description = descripCaption,
+			urlpack = '{:s}'.format(response.url),
 			image_urls = imageURL
 		)

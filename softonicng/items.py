@@ -20,8 +20,8 @@ class SoftonicngItem(scrapy.Item):
 class DownloadngItem(scrapy.Item):
 	title = scrapy.Field()
 	os = scrapy.Field()
-	urlpack = scrapy.Field()
 	description = scrapy.Field()
+	urlpack = scrapy.Field()
 	image_urls = scrapy.Field()
 	images = scrapy.Field()
 
