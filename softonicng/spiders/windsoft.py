@@ -7,8 +7,8 @@ from softonicng.items import FileItem
 
 class WindsoftSpider(scrapy.Spider):
     name = 'windsoft'
-    allowed_domains = ['en.softonic.com']
-    start_urls = ['http://en.softonic.com/windows/best-software']
+    allowed_domains = ['download.cnet.com']
+    start_urls = ['http://download.cnet.com/most-popular/windows/']
     def parse(self, response):
     	IND = 1
     	for item in response.xpath('//li[@class=$val]', val='list-program-item js-listed-program'):
