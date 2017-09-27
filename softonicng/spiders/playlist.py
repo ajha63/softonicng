@@ -39,8 +39,16 @@ class WindsoftSpider(scrapy.Spider):
 		osPath = '//*[@id="specsOperatingSystem"]/td[2]/text()'
 		osName = response.xpath(osPath).extract_first()
 
-		descripPath = 'normalize-space(//*[@id="publisher-description"]/p/text())'
-		descripCaption = response.xpath(descripPath).extract_first()
+		publisherDescriptionPath = 'normalize-space(//*[@id="publisher-description"]/p/text())'
+		publisherDescription = response.xpath(publisherDescriptionPath).extract_first()
+
+		editorReviewPath = 'normalize-space(//*[@id="review"]/div[2]/div/span/p[1]/text())'
+		editorReview = response.xpath(editorReviewPath).extract_first()
+
+		if publisherDescription:
+			descripCaption = publisherDescription
+		else:
+			descripCaption = editorReview
 
 		yield DownloadngItem(
 			title = '{:s} {:s}'.format(packageName, packageVer),
@@ -49,3 +57,5 @@ class WindsoftSpider(scrapy.Spider):
 			urlpack = '{:s}'.format(response.url),
 			image_urls = imageURL
 		)
+		logMessage = '{:s} {:s} Pulled!'.format(packageName, packageVer)
+		self.logger.debug(logMessage)
