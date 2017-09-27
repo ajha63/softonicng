@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import pprint
-from softonicng.items import SoftonicngItem
+from softonicng.items import DownloadngItem
 from softonicng.items import FileItem
 
 
@@ -12,8 +12,9 @@ class WindsoftSpider(scrapy.Spider):
     def parse(self, response):
     	IND = 1
     	for item in response.xpath('//*[@id="search-results"]/a'):
-    		topath = '//*[@id="search-results"]/a[{:d}]/@href'.format(IND)
-    		item.xpath(topath).extract_first()
+    		pathToDetails = '//*[@id="search-results"]/a[{:d}]/@href'.format(IND)
+    		itemDetails = item.xpath(pathToDetails).extract_first()
+    		self.logger.debug(itemDetails)
     		IND += 1
 
     	next_page = response.css('a.next ::attr(href)').extract_first()
