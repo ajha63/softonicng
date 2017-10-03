@@ -19,9 +19,13 @@ class SoftonicngItem(scrapy.Item):
 
 class DownloadngItem(scrapy.Item):
 	title = scrapy.Field()
+	version = scrapy.Field()
 	os = scrapy.Field()
+	category = scrapy.Field()
+	subcategory = scrapy.Field()
 	description = scrapy.Field()
 	urlpack = scrapy.Field()
+	pdate = scrapy.Field() #time.strftime("%Y/%m/%d")
 	image_urls = scrapy.Field()
 	images = scrapy.Field()
 

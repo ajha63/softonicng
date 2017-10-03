@@ -110,3 +110,6 @@ __pycache__
 __pycache__/*
 softonicng/spiders/__pycache__
 softonicng/spiders/__pycache__/*
+
+# ideasoft
+.idea/
